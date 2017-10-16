@@ -10,8 +10,6 @@ rbenv() {
     shift
   fi
 
-
-
   case "$command" in
   rehash|shell)
     eval "$(rbenv "sh-$command" "$@")";;
